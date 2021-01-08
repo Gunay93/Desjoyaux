@@ -53,7 +53,7 @@ canvas{
 }
 .owl-carousel .owl-nav button.owl-prev{border-right: 1px solid #ffffff7d;}
 #slider .navbar {
-    padding: 50px 0;
+    padding: 30px 0;
     transition:500ms all ease
 }
 .navbar-fixed{
@@ -393,7 +393,7 @@ canvas{
     right: 0;
     bottom: 0;
     border-radius: 3px;
-    background: linear-gradient(360deg, #1e429b 0%, #8bc3ed 100%);
+    background: #1e429b;
     transition: opacity .35s ease-in;
 }
 .overlay1,.overlay2 {
@@ -413,8 +413,8 @@ canvas{
     padding: 34px 64px 30px;
     background: #ffffff;
     background-repeat: no-repeat;
-    background-position: center right;
-    background-size: 50%;
+    background-position: bottom right;
+    background-size: 80%;
     background-image: url(../img/pool.png);
     box-shadow: 0px 25px 17px rgba(0, 0, 0, 0.06);
     border-radius: 5px;
@@ -660,7 +660,7 @@ footer {
     margin-right: 20px;
 }
 .advantages{
-    background-color: #f8f8f8;
+    background-color: #fff;
     padding:35px 0
 }
 .slider-caption h1{

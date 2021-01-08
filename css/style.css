@@ -385,6 +385,10 @@ canvas{
 .call-to-action-button:hover:before {
     opacity: 0;
 }
+.dropdown-toggle::after{
+    position: relative;
+    top:4px
+}
 .call-to-action-button:before {
     content: '';
     position: absolute;
@@ -655,9 +659,10 @@ footer {
 }
 /* .owl-carousel{position: static;} */
 .advantages i {
-    color: #cba651;
+    color: #ffcc54;
     font-size: 40px;
     margin-right: 20px;
+    position: relative;
 }
 .advantages{
     background-color: #fff;
@@ -750,7 +755,19 @@ footer {
       transform: scale(1.1); }
     to {
       transform: scale(1); } }
-      .call-img {
-        margin-bottom: 10px;
-    }
+.call-img {
+    margin-bottom: 10px;
+}
+.star{
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    background: url(../img/star.png);
+    background-size: 100%;
+    filter: invert(1);
+    transform: translate(-50%,-50%);
+}
       

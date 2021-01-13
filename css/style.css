@@ -557,6 +557,7 @@ footer {
     font-size: 13px;
     line-height: 25px;
     padding: 20px 0px;
+    margin-bottom: 57px;
 }
 /* Faq */
 .block-faq-item {
@@ -770,4 +771,26 @@ footer {
     filter: invert(1);
     transform: translate(-50%,-50%);
 }
+.fixed-nums {
+    position: fixed;
+    bottom: 0;
+    z-index: 100;
+    display: block;
+}
+.wp {
+    height: 100%;
+    text-align: center;
+    background-color: #0DC143;
+    color: #fff;
+    padding: 18px 5px;
+    font-weight: bold;
+    font-size: 14px;
+    cursor: pointer;
+}
+.wp a {
+    color: #fff;
+    text-decoration: none;
+    cursor: pointer;
+}
+.wp a i{margin-right: 5px;}
       
